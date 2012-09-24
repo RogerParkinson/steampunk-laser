@@ -4,6 +4,7 @@
 	<comment></comment>
 	<projects>
 		<project>Arduino_Uno</project>
+		<project>ATtiny85_@_1_MHz___internal_oscillator_BOD_disabled_</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
