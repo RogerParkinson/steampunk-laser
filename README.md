@@ -5,7 +5,13 @@ This code was loaded into an ATTiny85 that was embedded into a toy pistol with a
 
 The finished laser looks like this:
 
+[![Alt text for your video](http://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+
 <img src="Finished.jpg" alt="Finished" style="width: 200px;"/>
+
+[![Alt text for your video](Finished.jpg)](https://youtu.be/AGKMF4kWh64)
+
+[video](https://youtu.be/AGKMF4kWh64)
 
 The handle was designed in blender and 3D printed with a spacein it to hold a LIPO battery.
 This is the bare handle:
@@ -15,6 +21,8 @@ This is the bare handle:
 And this is the handle after painting and covering with fake mother of pearl.
 
 <img src="Laser2.jpg" alt="Finished" style="width: 200px;"/>
+
+[video](https://youtu.be/AGKMF4kWh64)
 
 We adapted the idea to make a bird scarer with glowing eyes. Some minor changes to the circuit and the code and it wakes up every 15 minutes to scare swallows that were nesting on the side of a house. The noise was adjusted to sound like a growling animal. THis was powered by 2xAA batteries.
 This was, in fact, a total failure. The swallows were initially bothers but in 3 weeks they had built a nest on top of it. The batteries were still going well, attesting to the usefulness of the ATTiny85's sleep function.
