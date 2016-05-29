@@ -9,7 +9,7 @@ The finished laser looks like this:
 
 <img src="Finished.jpg" alt="Finished" style="width: 200px;"/>
 
-[![Alt text for your video](Finished.jpg)](https://youtu.be/AGKMF4kWh64)
+[![Alt text for your video](Laser.gif)](https://youtu.be/AGKMF4kWh64)
 
 [video](https://youtu.be/AGKMF4kWh64)
 
