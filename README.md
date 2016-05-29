@@ -5,11 +5,7 @@ This code was loaded into an ATTiny85 that was embedded into a toy pistol with a
 
 The finished laser looks like this:
 
-[![Alt text for your video](http://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
-
 <img src="Finished.jpg" alt="Finished" style="width: 200px;"/>
-
-[![Alt text for your video](Laser.gif)](https://youtu.be/AGKMF4kWh64)
 
 [video](https://youtu.be/AGKMF4kWh64)
 
