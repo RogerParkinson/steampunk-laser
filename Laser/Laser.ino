@@ -13,6 +13,7 @@
  */
 
 #define TONE_PIN 4
+#define NOTE_DURATION 1
 #define LED_PIN PORTB3
 #define LED_PIN1 PORTB0
 int LED_cycle=0;
@@ -52,7 +53,7 @@ void loop() {
     myCounter = 0;
     }
 
-  if (myCounter % 2 == 0) {
+  if (myCounter % 1 == 0) {
     PINB |= _BV(LED_PIN);           //toggle the LED
     PINB |= _BV(LED_PIN1);           //toggle the LED
   }
@@ -60,29 +61,29 @@ void loop() {
 //  digitalWrite(LED_PIN, HIGH);
   for (int thisNote=95; thisNote<105; thisNote++)
   {
-    playNote(thisNote,2);;
+    playNote(thisNote,NOTE_DURATION);;
   }
 //  digitalWrite(LED_PIN, LOW);
 //  digitalWrite(LED_PIN1, HIGH);
 
   for (int thisNote=105; thisNote>95; thisNote--)
   {
-    playNote(thisNote,2);
+    playNote(thisNote,NOTE_DURATION);
   }
 //  digitalWrite(LED_PIN1, LOW);
 }
 
 void playNote(int note, int duration)
 {
-    int noteDuration = 1000/(duration*4);
+    int noteDuration = 1000/(duration*16);
     tone(TONE_PIN, note,noteDuration);
-    int pauseBetweenNotes = noteDuration * 1;//1.30;
+    int pauseBetweenNotes = noteDuration * 1/4;//1.30;
     delay(pauseBetweenNotes);
     // stop the tone playing:
     noTone(TONE_PIN);
 
-    tone(TONE_PIN, 90,noteDuration);
-    delay(pauseBetweenNotes/4);
+ //   tone(TONE_PIN, 90,noteDuration);
+ //   delay(pauseBetweenNotes/4);
     // stop the tone playing:
-    noTone(TONE_PIN);
+ //   noTone(TONE_PIN);
  }
